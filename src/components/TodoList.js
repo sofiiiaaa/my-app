@@ -15,7 +15,7 @@ const TodoList = ({todos, setTodos,filteredTodos}) =>{
             text={todo.text}/> //key=todo.id is because the key has always to be different and associated to what we want to render. Now we have to implement the delete and the check buttons. I(go to Todo.js)
         ))}
     </ul>
-    </div>
+    </div> 
     );
 };
 
